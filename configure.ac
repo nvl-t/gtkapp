@@ -1,0 +1,14 @@
+AC_PREREQ(1.0.0)
+AC_INIT(gtkapp, 0.2, [yocto@yoctoproject.org])
+AC_CONFIG_SRCDIR(main.c)
+AM_INIT_AUTOMAKE(AC_PACKAGE_NAME, AC_PACKAGE_VERSION)
+AM_CONFIG_HEADER(config.h)
+
+AC_PROG_CPP
+AC_PROG_CC
+
+PKG_CHECK_MODULES(MBTERM, glib-2.0 gtk+-3.0 vte-2.91)
+
+AC_OUTPUT([
+Makefile
+])
