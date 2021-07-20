@@ -3,7 +3,7 @@ AM_CFLAGS = -Wall
 LDADD = $(MBTERM_LIBS)
 
 bin_PROGRAMS = gtkapp
-matchbox_terminal_SOURCES = main.c
+gtkapp_SOURCES = main.c
 
 desktopdir = $(datadir)/applications
 dist_desktop_DATA = gtkapp.desktop
