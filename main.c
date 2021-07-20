@@ -7,7 +7,7 @@ on_window_title_changed (VteTerminal *terminal, GtkWindow *window)
 {
   char *title;
 
-  title = g_strdup_printf ("%s - gtkapp",
+  title = g_strdup_printf ("%s - Terminal",
                            vte_terminal_get_window_title (terminal));
   gtk_window_set_title (window, title);
   g_free (title);
@@ -55,7 +55,7 @@ main (int argc, char **argv)
 
   window = gtk_window_new (GTK_WINDOW_TOPLEVEL);
   g_signal_connect (window, "destroy", gtk_main_quit, NULL);
-  gtk_window_set_title (GTK_WINDOW (window), "gtkapp");
+  gtk_window_set_title (GTK_WINDOW (window), "Terminal");
   
   scrolled_win = gtk_scrolled_window_new (NULL, NULL);
   gtk_scrolled_window_set_policy (GTK_SCROLLED_WINDOW(scrolled_win),
