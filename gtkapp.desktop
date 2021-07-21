@@ -1,9 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Terminal
-Comment=When all else fails.
-Exec=gtkapp
-Icon=utilities-terminal
-Terminal=false
-Categories=GTK;Utility;
-StartupNotify=true
