@@ -2,7 +2,7 @@
 Type=Application
 Name=Terminal
 Comment=When all else fails.
-Exec=matchbox-terminal
+Exec=gtkapp
 Icon=utilities-terminal
 Terminal=false
 Categories=GTK;Utility;
