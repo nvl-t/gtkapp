@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=App
+Comment=When all else fails.
+Exec=app
+Icon=utilities-terminal
+Terminal=false
+Categories=GTK;Utility;
+StartupNotify=true
+
