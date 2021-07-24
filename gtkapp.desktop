@@ -1,8 +1,8 @@
 [Desktop Entry]
 Type=Application
-Name=App
+Name=gtkapp
 Comment=When all else fails.
-Exec=app
+Exec=gtkapp
 Icon=utilities-terminal
 Terminal=false
 Categories=GTK;Utility;
